@@ -1,0 +1,74 @@
+/* Border on the left side of the page */
+html {
+    border-left: 5px solid lightgray;
+}
+
+/* Body styles */
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+/* Header, main, and footer padding */
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+/* H1 styling */
+h1 {
+    color: tomato;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+}
+
+/* Navigation styles */
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: lightgray;
+}
+
+footer nav a {
+    color: tomato;
+}
+
+/* Blog post title styling */
+article h2 {
+    font-size: 1.5rem;
+}
+
+/* 'Continues...' link styling */
+article a {
+    float: right;
+    font-weight: bold;
+    color: tomato;
+}
+
+/* Article styles */
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+/* First letter styling */
+article p::first-letter {
+    font-size: 2rem;
+    color: lightgray;
+}
+
+/* Footer copyright styling */
+footer p {
+    color: lightgray;
+}
