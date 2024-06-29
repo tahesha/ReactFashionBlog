@@ -14,13 +14,16 @@ body {
 
 /* Header, main, and footer padding */
 header, main, footer {
-    padding: 1rem 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* H1 styling */
 h1 {
     color: tomato;
-}
+    }
 
 /* Image styling */
 img {
@@ -44,7 +47,7 @@ footer nav a {
 }
 
 /* Blog post title styling */
-article h2 {
+article h3 {
     font-size: 1.5rem;
 }
 
