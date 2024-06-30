@@ -1,12 +1,13 @@
 /* Border on the left side of the page */
 html {
     border-left: 5px solid lightgray;
+    margin-left: 100px;
 }
 
 /* Body styles */
 body {
     min-height: 100vh;
-    font-family: sans-serif;
+    font-family: 'Gil Sans Light';
     max-width: 1000px;
     margin: auto;
     padding: 1rem 2rem;
